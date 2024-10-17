@@ -1,13 +1,21 @@
+"use client";
+
 import Image from "next/image";
 
 interface Props {
-    imgSrc: string
+    imgSrc: string;
 }
 
-export default function Banner({ imgSrc } : Props){
+export default function Banner({ imgSrc }: Props) {
     return (
-        <div id="banner" className="w-screen h-[720px] contain">
-            <Image src={imgSrc} alt="Background Picture" fill objectFit="cover"/>
+        <div id="banner" className="relative w-360 h-180">
+            <Image 
+                src={imgSrc} 
+                alt="Background Picture" 
+                fill 
+                priority 
+                style={{ objectFit: "cover" }} 
+            />
         </div>
     );
 }

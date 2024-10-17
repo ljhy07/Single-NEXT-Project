@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import { pretendard } from './app/util/fonts';
 
 const config: Config = {
   content: [
@@ -12,6 +13,10 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        montserrat: ['var(--font-montserrat)'],
+        pretendard: ['var(--font-pretendard)'],
+      }
     },
   },
   plugins: [],

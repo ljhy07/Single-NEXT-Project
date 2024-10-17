@@ -3,11 +3,11 @@ import localFont from 'next/font/local';
 export const pretendard = localFont({
   src: [
     {
-      path: '/fonts/font/Pretendard/Pretendard-Regular.ttf',
+      path: '../../public/fonts/Pretendard/Pretendard-Regular.ttf',
       weight: '400',
     },
     {
-      path: '/fonts/font/Pretendard/Pretendard-Bold.ttf',
+      path: '../../public/fonts/Pretendard/Pretendard-Bold.ttf',
       weight: '700',
     },
   ],
@@ -17,8 +17,8 @@ export const pretendard = localFont({
 export const montserrat = localFont({
     src: [
         {
-            path: '/fonts/font/Monstserrat/Monstserrat-Bold.ttf',
-            weight: '',
+            path: '../../public/fonts/Montserrat/Montserrat-Bold.ttf',
+            weight: '700',
         }
     ],
     variable: '--font-pretendard',
