@@ -1,20 +1,25 @@
 import localFont from 'next/font/local';
 
-export const bebas = localFont({
-  src: '../static/fonts/BebasNeue.woff',
-  variable: '--font-bebas',
-});
-
 export const pretendard = localFont({
   src: [
     {
-      path: '../static/fonts/Pretendard-Regular.woff',
+      path: '/fonts/font/Pretendard/Pretendard-Regular.ttf',
       weight: '400',
     },
     {
-      path: '../static/fonts/Pretendard-Bold.woff',
+      path: '/fonts/font/Pretendard/Pretendard-Bold.ttf',
       weight: '700',
     },
   ],
   variable: '--font-pretendard',
+});
+
+export const montserrat = localFont({
+    src: [
+        {
+            path: '/fonts/font/Monstserrat/Monstserrat-Bold.ttf',
+            weight: '',
+        }
+    ],
+    variable: '--font-pretendard',
 });
