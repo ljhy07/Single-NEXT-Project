@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Montserrat", sans-serif;
+    src: url('./font/Montserrat/Montserrat-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-semibold';
+    src: url('./font/Pretendard/Pretendard-SemiBold.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
